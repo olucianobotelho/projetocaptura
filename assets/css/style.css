@@ -1,0 +1,148 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.container{
+    width: 1000px;
+    margin:auto;
+    position: relative;
+}
+
+
+
+header{
+    width: 1000px;
+    position:relative;
+    background-color: blueviolet;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+
+
+header p{
+    font-weight: 600;
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+/* RESPONSIVITY */
+@media (max-width:576px) {
+    header{
+        width:480px;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    
+}
+@media (max-width:768px) {
+    header{
+        width:720px;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+
+
+
+/* CONTENT */
+
+
+ section{
+    
+    height: 500px;
+    width: 1000px;
+    margin:auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.background{
+    
+    background:  url("https://i.redd.it/52f61nfzmwl51.jpg")no-repeat;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+
+    
+}
+
+
+.div-content{
+    
+    
+    padding: 20%;
+    font-size: 15px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+.div-content article{
+    background-color: blueviolet;
+    padding: 20%;
+    border-radius: 70%;
+    
+}
+
+
+.div-content p{
+    padding: 10px;
+    text-indent: 4px;
+    color: yellowgreen;
+    font-size: 15px;
+    
+    
+}
+
+
+.div-form{
+    
+    position: relative;
+}
+
+.card{
+     position: absolute;
+     
+     width: 60%;
+     height: 70%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 10px;
+     background: whitesmoke;
+     opacity: 0.5;
+}
+
+/* FOOTER */
+
+
+footer{
+    color:white;
+    text-align: center;
+    position: relative;
+    height: 100px;
+}
+
+footer p{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
