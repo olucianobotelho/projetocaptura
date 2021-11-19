@@ -21,7 +21,7 @@ body{
 header{
     width: 1000px;
     position:relative;
-    background-color: blueviolet;
+    background-color: #5700FF;
     text-align: center;
     height: 50px;
     color: white;
@@ -95,7 +95,7 @@ header p{
 }
 
 .div-content article{
-    background-color: blueviolet;
+    background-color: #3D00B2;
     padding: 20%;
     border-radius: 70%;
     
@@ -105,7 +105,7 @@ header p{
 .div-content p{
     padding: 10px;
     text-indent: 4px;
-    color: yellowgreen;
+    color: #FF9119;
     font-size: 15px;
     
     
@@ -126,14 +126,74 @@ header p{
      left: 50%;
      transform: translate(-50%,-50%);
      border-radius: 10px;
-     background: whitesmoke;
-     opacity: 0.5;
+     background-color: rgba(220, 220, 220, 0.4);
+     
 }
+
+.card-container{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+
+/* FORM */
+
+
+form{
+    padding: 5%;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+
+.input-form{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px ;
+    border-style: none;
+    padding-left: 1px;
+    text-align: center;
+    font-weight: 600;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* BUTTON FORM */
+
+.btn-submit{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    background-color:#09B225;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+
 
 /* FOOTER */
 
 
 footer{
+    background-color: #5700FF;
     color:white;
     text-align: center;
     position: relative;
